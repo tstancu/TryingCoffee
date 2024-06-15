@@ -1,0 +1,1552 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appTryingCoffee"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"_qt_internal_find_third_party_dependencies",
+			"set_property",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
+			"/home/ts/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6InsightTracker/Qt6InsightTrackerVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6InsightTracker/Qt6InsightTrackerConfig.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6InsightTracker/Qt6InsightTrackerDependencies.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapSystemZLIB.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/ts/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/ts/Qt/6.7.1/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:743:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 869,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 575,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 301,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 240,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 60,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 55,
+				"parent" : 10
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 250,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 776,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 392,
+				"parent" : 18
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 8
+			},
+			{
+				"file" : 8,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 56,
+				"parent" : 21
+			},
+			{
+				"file" : 7,
+				"parent" : 22
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"file" : 13,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 13,
+				"line" : 42,
+				"parent" : 26
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 111,
+				"parent" : 27
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 76,
+				"parent" : 28
+			},
+			{
+				"file" : 10,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 10,
+				"line" : 60,
+				"parent" : 30
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 6,
+				"file" : 9,
+				"line" : 61,
+				"parent" : 32
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 8
+			},
+			{
+				"file" : 15,
+				"parent" : 34
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 60,
+				"parent" : 35
+			},
+			{
+				"file" : 14,
+				"parent" : 36
+			},
+			{
+				"command" : 6,
+				"file" : 14,
+				"line" : 61,
+				"parent" : 37
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 44,
+				"parent" : 21
+			},
+			{
+				"file" : 18,
+				"parent" : 39
+			},
+			{
+				"command" : 12,
+				"file" : 18,
+				"line" : 42,
+				"parent" : 40
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 111,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 76,
+				"parent" : 42
+			},
+			{
+				"file" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 60,
+				"parent" : 44
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 61,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 15,
+				"line" : 43,
+				"parent" : 35
+			},
+			{
+				"file" : 21,
+				"parent" : 48
+			},
+			{
+				"command" : 12,
+				"file" : 21,
+				"line" : 42,
+				"parent" : 49
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 111,
+				"parent" : 50
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 76,
+				"parent" : 51
+			},
+			{
+				"file" : 20,
+				"parent" : 52
+			},
+			{
+				"command" : 7,
+				"file" : 20,
+				"line" : 60,
+				"parent" : 53
+			},
+			{
+				"file" : 19,
+				"parent" : 54
+			},
+			{
+				"command" : 6,
+				"file" : 19,
+				"line" : 61,
+				"parent" : 55
+			},
+			{
+				"command" : 13,
+				"file" : 21,
+				"line" : 33,
+				"parent" : 49
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 36,
+				"parent" : 57
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 76,
+				"parent" : 58
+			},
+			{
+				"file" : 22,
+				"parent" : 59
+			},
+			{
+				"command" : 5,
+				"file" : 22,
+				"line" : 27,
+				"parent" : 60
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 169,
+				"parent" : 8
+			},
+			{
+				"file" : 24,
+				"parent" : 62
+			},
+			{
+				"command" : 7,
+				"file" : 24,
+				"line" : 60,
+				"parent" : 63
+			},
+			{
+				"file" : 23,
+				"parent" : 64
+			},
+			{
+				"command" : 6,
+				"file" : 23,
+				"line" : 61,
+				"parent" : 65
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 24,
+				"line" : 43,
+				"parent" : 63
+			},
+			{
+				"file" : 27,
+				"parent" : 68
+			},
+			{
+				"command" : 13,
+				"file" : 27,
+				"line" : 33,
+				"parent" : 69
+			},
+			{
+				"command" : 11,
+				"file" : 12,
+				"line" : 36,
+				"parent" : 70
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 76,
+				"parent" : 71
+			},
+			{
+				"file" : 26,
+				"parent" : 72
+			},
+			{
+				"command" : 8,
+				"file" : 26,
+				"line" : 13,
+				"parent" : 73
+			},
+			{
+				"file" : 25,
+				"parent" : 74
+			},
+			{
+				"command" : 14,
+				"file" : 25,
+				"line" : 712,
+				"parent" : 75
+			},
+			{
+				"command" : 6,
+				"file" : 25,
+				"line" : 710,
+				"parent" : 75
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 647,
+				"parent" : 18
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 2747,
+				"parent" : 78
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 21,
+				"file" : 28,
+				"line" : 1,
+				"parent" : 80
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 81
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 82
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 83
+			},
+			{
+				"command" : 17,
+				"file" : 6,
+				"line" : 3541,
+				"parent" : 84
+			},
+			{
+				"command" : 15,
+				"file" : 6,
+				"line" : 3346,
+				"parent" : 85
+			},
+			{
+				"command" : 23,
+				"file" : 6,
+				"line" : 541,
+				"parent" : 18
+			},
+			{
+				"command" : 22,
+				"file" : 6,
+				"line" : 3074,
+				"parent" : 87
+			},
+			{
+				"command" : 22,
+				"file" : 6,
+				"line" : 3099,
+				"parent" : 87
+			},
+			{
+				"command" : 25,
+				"file" : 6,
+				"line" : 2899,
+				"parent" : 87
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1415,
+				"parent" : 90
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 3065,
+				"parent" : 87
+			},
+			{
+				"command" : 28,
+				"file" : 6,
+				"line" : 590,
+				"parent" : 18
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 93
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 94
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 95
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 637,
+				"parent" : 18
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2531,
+				"parent" : 78
+			},
+			{
+				"command" : 29,
+				"file" : 6,
+				"line" : 2635,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 1244,
+				"parent" : 99
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2683,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2531,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2683,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2531,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2683,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2531,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2683,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2531,
+				"parent" : 78
+			},
+			{
+				"command" : 24,
+				"file" : 6,
+				"line" : 2683,
+				"parent" : 78
+			},
+			{
+				"command" : 28,
+				"file" : 6,
+				"line" : 2766,
+				"parent" : 78
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 110
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 111
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 112
+			},
+			{
+				"command" : 28,
+				"file" : 1,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 114
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 115
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2004,
+				"parent" : 116
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 768,
+				"parent" : 81
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 2117,
+				"parent" : 118
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 67,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 67,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_INSIGHTTRACKER_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_SQL_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_STATEMACHINE_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/include"
+				},
+				{
+					"backtrace" : 88,
+					"path" : "/home/ts/Projects/Cute/TryingCoffee"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 89,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtInsightTracker"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtSql"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/ts/Qt/6.7.1/gcc_64/include/QtStateMachine"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				20,
+				21
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 79,
+			"id" : "appTryingCoffee_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 86,
+			"id" : "appTryingCoffee_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appTryingCoffee_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appTryingCoffee_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appTryingCoffee::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ts/Qt/6.7.1/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6StateMachine.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Quick.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6QmlModels.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Qml.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6QmlBuiltins.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6OpenGL.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6InsightTracker.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Network.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Sql.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 61,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 66,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Gui.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 67,
+				"fragment" : "/home/ts/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 76,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appTryingCoffee",
+	"nameOnDisk" : "appTryingCoffee",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				5,
+				6,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				20,
+				21
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				9,
+				12,
+				14,
+				16,
+				18,
+				22,
+				23,
+				24,
+				25,
+				38,
+				39,
+				40,
+				41,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				7,
+				8
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "ApplicationFlowModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "CoffeeModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 91,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apptryingcoffee_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/apptryingcoffee_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_TryingCoffee.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"path" : "ApplicationFlowModel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 97,
+			"path" : "CoffeeModel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 98,
+			"path" : "main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "SideBar.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_SideBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"path" : "CoffeeDelegate.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CoffeeDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 106,
+			"path" : "CoffeeButton.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 107,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CoffeeButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 108,
+			"path" : "CupForm.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 109,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CupForm_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appTryingCoffee_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 117,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 119,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_TryingCoffee.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/TryingCoffee/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appTryingCoffee_raw_qml_0.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/resources.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/icons/coffees/cappucino.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/icons/coffees/Espresso.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/icons/coffees/Latte.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/icons/coffees/Macchiato.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/icons/coffees/Americano.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/cup_elements/coffee_cup_back.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/cup_elements/coffee_cup_front.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/liquids/liquid_coffee.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/liquids/liquid_milk.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/liquids/liquid_foam.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/cup_structure/coffee_cup_large.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "images/ui_controls/line.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 119,
+			"path" : "imports/Coffee/Constants.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"path" : "imports/Coffee/TitilliumWeb-Regular.ttf",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 119,
+			"path" : "imports/Coffee/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/meta_types/qt6apptryingcoffee_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/apptryingcoffee_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_TryingCoffee.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_SideBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CoffeeDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CoffeeButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appTryingCoffee_CupForm_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appTryingCoffee_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_resources.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_1-Debug/meta_types/appTryingCoffee_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 67,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6qmlbuiltins_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6insighttracker_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6sql_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/ts/Qt/6.7.1/gcc_64/metatypes/qt6statemachine_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

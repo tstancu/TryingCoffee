@@ -1,0 +1,8 @@
+module TryingCoffee
+typeinfo appTryingCoffee.qmltypes
+prefer :/qt/qml/TryingCoffee/
+SideBar 1.0 SideBar.qml
+CoffeeDelegate 1.0 CoffeeDelegate.qml
+CoffeeButton 1.0 CoffeeButton.qml
+CupForm 1.0 CupForm.qml
+

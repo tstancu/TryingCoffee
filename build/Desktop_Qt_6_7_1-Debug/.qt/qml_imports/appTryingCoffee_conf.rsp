@@ -1,0 +1,15 @@
+-rootPath
+/home/ts/Projects/Cute/TryingCoffee
+-cmake-output
+-output-file
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appTryingCoffee_conf.cmake
+-importPath
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/TryingCoffee
+-importPath
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/home/ts/Qt/6.7.1/gcc_64/./qml
+-qrcFiles
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_TryingCoffee.qrc
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appTryingCoffee_raw_qml_0.qrc
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/resources.qrc

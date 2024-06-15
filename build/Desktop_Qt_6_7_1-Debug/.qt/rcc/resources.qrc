@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="images/icons/coffees/cappucino.png">/home/ts/Projects/Cute/TryingCoffee/images/icons/coffees/cappucino.png</file>
+    <file alias="images/icons/coffees/Espresso.png">/home/ts/Projects/Cute/TryingCoffee/images/icons/coffees/Espresso.png</file>
+    <file alias="images/icons/coffees/Latte.png">/home/ts/Projects/Cute/TryingCoffee/images/icons/coffees/Latte.png</file>
+    <file alias="images/icons/coffees/Macchiato.png">/home/ts/Projects/Cute/TryingCoffee/images/icons/coffees/Macchiato.png</file>
+    <file alias="images/icons/coffees/Americano.png">/home/ts/Projects/Cute/TryingCoffee/images/icons/coffees/Americano.png</file>
+    <file alias="images/cup_structure/cup_elements/coffee_cup_back.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/cup_elements/coffee_cup_back.png</file>
+    <file alias="images/cup_structure/cup_elements/coffee_cup_front.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/cup_elements/coffee_cup_front.png</file>
+    <file alias="images/cup_structure/liquids/liquid_coffee.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/liquids/liquid_coffee.png</file>
+    <file alias="images/cup_structure/liquids/liquid_milk.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/liquids/liquid_milk.png</file>
+    <file alias="images/cup_structure/liquids/liquid_foam.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/liquids/liquid_foam.png</file>
+    <file alias="images/cup_structure/coffee_cup_large.png">/home/ts/Projects/Cute/TryingCoffee/images/cup_structure/coffee_cup_large.png</file>
+    <file alias="images/ui_controls/line.png">/home/ts/Projects/Cute/TryingCoffee/images/ui_controls/line.png</file>
+    <file alias="imports/Coffee/Constants.qml">/home/ts/Projects/Cute/TryingCoffee/imports/Coffee/Constants.qml</file>
+    <file alias="imports/Coffee/TitilliumWeb-Regular.ttf">/home/ts/Projects/Cute/TryingCoffee/imports/Coffee/TitilliumWeb-Regular.ttf</file>
+    <file alias="imports/Coffee/qmldir">/home/ts/Projects/Cute/TryingCoffee/imports/Coffee/qmldir</file>
+  </qresource>
+</RCC>
+

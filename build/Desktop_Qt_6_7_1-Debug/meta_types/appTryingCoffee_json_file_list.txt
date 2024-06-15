@@ -1,0 +1,2 @@
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/include/../EWIEGA46WW/moc_ApplicationFlowModel.cpp.json
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/appTryingCoffee_autogen/include/../EWIEGA46WW/moc_CoffeeModel.cpp.json

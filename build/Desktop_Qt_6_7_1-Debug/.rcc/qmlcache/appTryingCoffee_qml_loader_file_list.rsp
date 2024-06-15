@@ -1,0 +1,11 @@
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_TryingCoffee.qrc
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appTryingCoffee_raw_qml_0.qrc
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/resources.qrc
+/qt/qml/TryingCoffee/main.qml
+/qt/qml/TryingCoffee/SideBar.qml
+/qt/qml/TryingCoffee/CoffeeDelegate.qml
+/qt/qml/TryingCoffee/CoffeeButton.qml
+/qt/qml/TryingCoffee/CupForm.qml

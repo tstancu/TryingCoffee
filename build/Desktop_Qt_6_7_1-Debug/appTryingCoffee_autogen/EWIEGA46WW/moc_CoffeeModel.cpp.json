@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "CoffeeModel",
+            "object": true,
+            "qualifiedClassName": "CoffeeModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CoffeeModel.h",
+    "outputRevision": 68
+}

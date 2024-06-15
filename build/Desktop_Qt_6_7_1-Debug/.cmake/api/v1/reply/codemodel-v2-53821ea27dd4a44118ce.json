@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d17ba6ca54774610edbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TryingCoffee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-a07238dff677d03488c3.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-c24c0b0c5e200354bd09.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-1ac4b8e12d4920709648.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-46872eb2914750805bf6.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee-Debug-4dd146d29c6c7c1b0f4c.json",
+					"name" : "appTryingCoffee",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_autogen-Debug-dd9afd7740d4c1f2b723.json",
+					"name" : "appTryingCoffee_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_autogen_timestamp_deps-Debug-6b98675e5ad791550419.json",
+					"name" : "appTryingCoffee_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_qmlimportscan-Debug-6fb7388340b7a304ba7b.json",
+					"name" : "appTryingCoffee_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_qmllint-Debug-8fc55ff39aa3dbdebdca.json",
+					"name" : "appTryingCoffee_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_qmllint_json-Debug-e41320c8c05df231a71c.json",
+					"name" : "appTryingCoffee_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_qmllint_module-Debug-33b644854269773eccdc.json",
+					"name" : "appTryingCoffee_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_qmltyperegistration-Debug-d2785bff02149a8211bb.json",
+					"name" : "appTryingCoffee_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTryingCoffee_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTryingCoffee_tooling-Debug-c802fbb040e5dd8ad257.json",
+					"name" : "appTryingCoffee_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug",
+		"source" : "/home/ts/Projects/Cute/TryingCoffee"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

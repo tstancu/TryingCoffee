@@ -1,0 +1,118 @@
+{
+    "classes": [
+        {
+            "className": "ApplicationFlowModel",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "state",
+                    "notify": "stateChanged",
+                    "read": "state",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setState"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "animationDuration",
+                    "notify": "animationDurationChanged",
+                    "read": "animationDuration",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setAnimationDuration"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "milkAmount",
+                    "notify": "milkAmountChanged",
+                    "read": "milkAmount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setMilkAmount"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "sugarAmount",
+                    "notify": "sugarAmountChanged",
+                    "read": "sugarAmount",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSugarAmount"
+                }
+            ],
+            "qualifiedClassName": "ApplicationFlowModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "stateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "animationDurationChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "milkAmountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sugarAmountChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "coffeeSelected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "brewStarted",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "startBrew",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ApplicationFlowModel.h",
+    "outputRevision": 68
+}

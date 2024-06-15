@@ -1,0 +1,12 @@
+-I
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug
+-I
+/home/ts/Qt/6.7.1/gcc_64/./qml
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_TryingCoffee.qrc
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appTryingCoffee_raw_qml_0.qrc
+--resource
+/home/ts/Projects/Cute/TryingCoffee/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/resources.qrc
+--module
+TryingCoffee
