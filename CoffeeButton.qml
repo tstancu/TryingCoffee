@@ -5,10 +5,10 @@ import TryingCoffee
 import QtInsightTracker
 import "qrc:/imports/Coffee" as CoffeeConstants
 
-Image {
+Item {
     id: root
-    width: 100
-    height: 100
+    width: parent.width
+    height: 64
     source: "qrc:/images/icons/coffees/cappucino.png"  // Default image source
     signal clicked
 
@@ -32,10 +32,18 @@ Image {
 
     Image {
         id: coffeeImage
-        anchors.centerIn: parent
+        // anchors.centerIn: parent
         // width: 250
         // height: 250
+        width: parent.width * 0.8
+        height: parent.height * 0.8
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        fillMode: Image.PreserveAspectFit
         source: ""
+
+
         onSourceChanged: {
             console.log("Image source:", coffeeImage.source)
         }
@@ -50,10 +58,11 @@ Image {
     Rectangle {
         id: glow
         visible: false
-        width: 250
-        height: 250
+        width: coffeeImage.width
+        height: coffeeImage.height
         color: "#00000000"
-        radius: 125
+        // radius: 125
+        radius: Math.min(coffeeImage.width, coffeeImage.height) / 2
         scale: 1.05
         border.color: "#ffffff"
     }
@@ -62,6 +71,8 @@ Image {
         id: label
         text: qsTr("Label")
         anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: coffeeImage.bottom
+        anchors.topMargin: 5
         color: "#443224"
         font.family: CoffeeConstants.Constants.fontFamily
         font.pixelSize: 28

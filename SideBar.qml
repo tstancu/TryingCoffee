@@ -1,4 +1,3 @@
-// SideBar.qml
 import QtQuick 2.15
 import QtQuick.Layouts 1.3
 
@@ -25,13 +24,15 @@ Item {
         width: parent.width
         height: parent.height
         contentWidth: parent.width
-        boundsBehavior: Flickable.StopAtBounds
+        boundsBehavior: Flickable.StopAtBound
         clip: true
 
         Rectangle {
             id: background
             width: sideBar.width
-            height: flickable.contentHeight
+            // height: flickable.contentHeight
+            // width: 354
+            height: 1506
             color: "#eec1a2"
         }
 
@@ -41,7 +42,8 @@ Item {
             height: parent.height
             model: coffeeModel
             delegate: coffeeDelegateComponent
-            spacing: 64  // Adjust the spacing between items
+            spacing: 64  // Spacing between items
+            z: 1
         }
     }
 
@@ -49,18 +51,30 @@ Item {
         id: coffeeDelegateComponent
         Item {
             width: coffeeListView.width
-            height: 120  // Ensure each delegate item has a defined height
-            CoffeeDelegate {
+            height: 64  // Each delegate has its own height set
+            RowLayout {
                 anchors.fill: parent
-                text: model.name
-                source: model.imagePath
-                onClicked: {
-                    sideBar.currentCoffee = model.name
-                    sideBar.currentMilk = model.milk
-                    sideBar.currentCoffeeAmount = model.coffeeAmount
-                    sideBar.coffeeSelected()
+                spacing: 10
+
+                CoffeeButton {
+                    text: model.name
+                    source: model.imageSource
+                    onClicked: {
+                        sideBar.currentCoffee = model.name
+                        sideBar.currentMilk = model.milk
+                        sideBar.currentCoffeeAmount = model.coffeeAmount
+                        sideBar.coffeeSelected()
+                    }
                 }
             }
         }
     }
+
+    // Component.onCompleted: {
+    //     console.log("sideBar.width onCompleted:", sideBar.width)
+    // }
+
+    // onWidthChanged: {
+    //     console.log("sideBar.width changed:", sideBar.width)
+    // }
 }

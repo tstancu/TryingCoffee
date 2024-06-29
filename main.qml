@@ -53,21 +53,41 @@ ApplicationWindow {
     //     onFinished: applicationFlowModel.setState("finished")
     // }
 
-
-
-    CupForm {
-        id: cup
-        anchors.centerIn: parent
-        questionVisible: applicationFlowModel.questionVisible
-        coffeeLabel: applicationFlowModel.coffeeLabel
-        sugarAmount: applicationFlowModel.sugarAmount
-        milkAmount: applicationFlowModel.milkAmount
-        coffeeAmount: applicationFlowModel.coffeeAmount
-    }
-
     SideBar {
-        anchors.fill: parent
+        id: sideBar
+        width: 354
+        height: parent.height
+        anchors.left: parent.left
+
+        Component.onCompleted: {
+            console.log("SideBar width:", sideBar.width)
+            console.log("SideBar height:", sideBar.height)
+        }
     }
+
+    Rectangle {
+         color: "lightgray"
+         opacity: 0.5
+         anchors.top: parent.top
+         anchors.bottom: parent.bottom
+         anchors.left: sideBar.right
+         anchors.right: parent.right
+         z: 1
+     }
+
+    // CupForm {
+    //     id: cup
+    //     anchors.centerIn: parent
+    //     questionVisible: applicationFlowModel.questionVisible
+    //     coffeeLabel: applicationFlowModel.coffeeLabel
+    //     sugarAmount: applicationFlowModel.sugarAmount
+    //     milkAmount: applicationFlowModel.milkAmount
+    //     coffeeAmount: applicationFlowModel.coffeeAmount
+    // }
+
+    // SideBar {
+    //     anchors.fill: parent
+    // }
 
 
 }
